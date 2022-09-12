@@ -1,8 +1,8 @@
 import React from "react";
-import LogIn from "../components/Login.js/LogIn";
+import Congratulation from "./Congratulation";
 
 const HomeScreen = () => {
-  return <LogIn />;
+  return <Congratulation />;
 };
 
 export default HomeScreen;
