@@ -1,8 +1,8 @@
 import React from "react";
-import Congratulation from "./Congratulation";
+import EditProfileScreen from "./EditProfileScreen";
 
 const HomeScreen = () => {
-  return <Congratulation />;
+  return <EditProfileScreen />;
 };
 
 export default HomeScreen;
