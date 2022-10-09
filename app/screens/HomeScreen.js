@@ -1,8 +1,8 @@
 import React from "react";
-import EditProfileScreen from "./EditProfileScreen";
+import ModifyAProductScreen from "../LiveAppShop/Screens/ModifyAProduct/ModifyAProductScreen";
 
 const HomeScreen = () => {
-  return <EditProfileScreen />;
+  return <ModifyAProductScreen />;
 };
 
 export default HomeScreen;
