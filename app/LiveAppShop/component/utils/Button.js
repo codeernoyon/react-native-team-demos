@@ -5,7 +5,7 @@ import COLORS from "../../configs/colors";
 
 const Button = ({ title, border, w, h, r = "full" }) => {
   return (
-    <View style={tw`my-4 items-center`}>
+    <View style={tw`my-1 items-center`}>
       <TouchableOpacity
         style={[
           tw`h-[${h}] w-[${w}] justify-center items-center rounded-${r} ${

@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { AppHeader } from "../shared";
+import { AppHeader } from "../../component/shared";
 import PurchaseSummaryBer from "./PurchaseSummaryBer";
 import PurchaseSummerStore from "./PurchaseSummerStore";
 

@@ -2,8 +2,8 @@ import React from "react";
 import { Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import tw from "twrnc";
+import { AppHeader } from "../../component/shared";
 import COLORS from "../../configs/colors";
-import { AppHeader } from "../../shared";
 import ManageMyStoreBer from "./ManageMyStoreBer";
 import ManageMyStoreItems from "./ManageMyStoreItems";
 
@@ -16,6 +16,7 @@ const ManageMyStoreScreen = () => {
       <ManageMyStoreBer />
       {/* -----==== Stores ====----- */}
       <ManageMyStoreItems />
+
       {/* ----==== Button ====---- */}
       <View style={tw`mt-30 items-center`}>
         <TouchableOpacity
